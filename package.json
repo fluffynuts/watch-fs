@@ -2,7 +2,6 @@
   "name": "watch-fs",
   "version": "1.0.0",
   "description": "Watches one or more folders for file changes and outputs which files were changed as it happens.It's not rocket-science, but it helps to debug why, for example, your `jest -w` command keeps re-running tests even though you're not changing specs or code files.",
-  "main": "index.js",
   "scripts": {
     "test": "run-s \"zarro test\"",
     "build": "run-s \"zarro build\"",
